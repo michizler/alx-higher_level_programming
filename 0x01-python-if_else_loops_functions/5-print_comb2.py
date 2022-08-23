@@ -1,11 +1,6 @@
 #!/usr/bin/python3
-for n in range(0, 100):
-    if n < 10:
-        print(f"0{n}, ", end="")
+for number in range(0, 100):
+    if number == 99:
+        print("{}".format(number))
     else:
-         if n == (100-1):
-            print(f"{n}")
-        else:
-            print(f"{n}, ", end=", ")
-~
-
+        print("{:02}".format(number), end=", ")
