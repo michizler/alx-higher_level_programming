@@ -1,0 +1,49 @@
+=========================
+
+For funtion add_integer()
+
+=========================
+
+Returns the integer value of summed parameters a and b
+
+>>> add_integer = __import__('0-add_integer').add_integer
+
+>>> add_integer(2, 4)
+6
+
+>>> add_integer(3, 8)
+11
+
+Function returns 'a + 98' as default sum if b parameter isn't given --- since the default value for b is 98
+
+>>> add_integer(2)
+100
+
+The function works with floats as well
+
+>>> add_integer(3.2, 7)
+10
+
+>>> add_integer(4, 8.4)
+12
+
+>>> add_integer(4.2, 6.3)
+10
+
+The function gives the rounded down value for floated sum to the nearest whole number
+
+>>> add_integer(7.5)
+105
+
+>>> add_integer(4.2, 9.5)
+13
+
+If a any other data type is passed aside from float or int, it raises an a type error.
+
+>>> add_integer("Hey", 3)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer(4, "check")
+Traceback (most recent call last):
+TypeError: b must be an integer
