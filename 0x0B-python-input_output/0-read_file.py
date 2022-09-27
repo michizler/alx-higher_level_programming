@@ -4,6 +4,7 @@
     print it to stdout.
 """
 
+
 def read_file(filename=""):
     """ prints the contents of a read file
         to stdout.

@@ -4,6 +4,7 @@
     textfile.
 """
 
+
 def write_file(filename="", text=""):
     """ Returns the number number of characters
         contained in the text.
