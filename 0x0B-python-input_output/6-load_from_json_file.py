@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
-""" 
+"""
     Module to create python objects from a textfile
 """
 
 
 import json
+
 
 def load_from_json_file(filename):
     """ Converts JSON representation to
