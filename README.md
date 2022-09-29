@@ -8,3 +8,5 @@ Cheers!
 - Interprted on: Ubuntu 20.04LTS
 - Projects by: Holberton Coding School
 - Learning platform: alx-intranet
+- Programming Language: Python
+- Compatibility version: version 2.8*
